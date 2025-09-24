@@ -1,0 +1,21 @@
+# Base image:ROS2 Jazzy
+FROM ros:jazzy
+
+# Install basic tools
+RUN apt update -y && apt install -y wget
+RUN apt update -y && apt install -y ros-jazzy-rqt-graph
+RUN apt update -y && apt install -y ros-jazzy-rqt-console
+
+# Install python3-scikit-learn for DBSCAN
+RUN apt update -y && apt install -y python3-sklearn
+
+# Install ROS-Gazebo interface for simulation integration
+RUN apt update -y && apt install -y ros-jazzy-ros-gz
+
+# Install Navigation2 stack for path planning, control, and robot navigation
+RUN apt update -y && apt install -y ros-jazzy-navigation2 \
+ ros-jazzy-nav2-bringup 
+
+# Set working directory
+WORKDIR /root/ros_workspace
+
