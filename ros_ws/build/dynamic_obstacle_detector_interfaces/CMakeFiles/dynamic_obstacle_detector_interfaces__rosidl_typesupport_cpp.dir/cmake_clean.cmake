@@ -1,0 +1,15 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/dynamic_obstacle_detector_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamic_obstacle_detector_interfaces/msg/tracked_object__type_support.cpp.o"
+  "CMakeFiles/dynamic_obstacle_detector_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamic_obstacle_detector_interfaces/msg/tracked_object__type_support.cpp.o.d"
+  "CMakeFiles/dynamic_obstacle_detector_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamic_obstacle_detector_interfaces/msg/tracked_object_array__type_support.cpp.o"
+  "CMakeFiles/dynamic_obstacle_detector_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamic_obstacle_detector_interfaces/msg/tracked_object_array__type_support.cpp.o.d"
+  "libdynamic_obstacle_detector_interfaces__rosidl_typesupport_cpp.pdb"
+  "libdynamic_obstacle_detector_interfaces__rosidl_typesupport_cpp.so"
+  "rosidl_typesupport_cpp/dynamic_obstacle_detector_interfaces/msg/tracked_object__type_support.cpp"
+  "rosidl_typesupport_cpp/dynamic_obstacle_detector_interfaces/msg/tracked_object_array__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/dynamic_obstacle_detector_interfaces__rosidl_typesupport_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "dynamic_obstacle_detector_interfaces__py",
+		"source" : "/root/ros_workspace/build/dynamic_obstacle_detector_interfaces/dynamic_obstacle_detector_interfaces__py"
+	}
+}

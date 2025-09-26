@@ -1,0 +1,19 @@
+[1.920s] Invoking command in '/root/ros_workspace/src/multi_robot_bringup': AMENT_PREFIX_PATH=/root/ros_workspace/install/dynamic_obstacle_detector:/root/ros_workspace/install/turtlebot3_gazebo:/root/ros_workspace/install/multi_robot_bringup:/root/ros_workspace/install/dynamic_obstacle_detector_interfaces:/opt/ros/jazzy PYTHONPATH=/root/ros_workspace/build/multi_robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/multi_robot_bringup/lib/python3.12/site-packages:/root/ros_workspace/install/dynamic_obstacle_detector/lib/python3.12/site-packages:/root/ros_workspace/install/multi_robot_bringup/lib/python3.12/site-packages:/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/multi_robot_bringup build --build-base /root/ros_workspace/build/multi_robot_bringup/build install --record /root/ros_workspace/build/multi_robot_bringup/install.log --single-version-externally-managed install_data
+[2.402s] running egg_info
+[2.432s] writing ../../build/multi_robot_bringup/multi_robot_bringup.egg-info/PKG-INFO
+[2.432s] writing dependency_links to ../../build/multi_robot_bringup/multi_robot_bringup.egg-info/dependency_links.txt
+[2.433s] writing requirements to ../../build/multi_robot_bringup/multi_robot_bringup.egg-info/requires.txt
+[2.433s] writing top-level names to ../../build/multi_robot_bringup/multi_robot_bringup.egg-info/top_level.txt
+[2.500s] reading manifest file '../../build/multi_robot_bringup/multi_robot_bringup.egg-info/SOURCES.txt'
+[2.501s] writing manifest file '../../build/multi_robot_bringup/multi_robot_bringup.egg-info/SOURCES.txt'
+[2.502s] running build
+[2.503s] running build_py
+[2.503s] running install
+[2.514s] running install_lib
+[2.553s] running install_data
+[2.553s] running install_egg_info
+[2.591s] removing '/root/ros_workspace/install/multi_robot_bringup/lib/python3.12/site-packages/multi_robot_bringup-0.0.0-py3.12.egg-info' (and everything under it)
+[2.593s] Copying ../../build/multi_robot_bringup/multi_robot_bringup.egg-info to /root/ros_workspace/install/multi_robot_bringup/lib/python3.12/site-packages/multi_robot_bringup-0.0.0-py3.12.egg-info
+[2.595s] running install_scripts
+[2.870s] writing list of installed files to '/root/ros_workspace/build/multi_robot_bringup/install.log'
+[2.936s] Invoked command in '/root/ros_workspace/src/multi_robot_bringup' returned '0': AMENT_PREFIX_PATH=/root/ros_workspace/install/dynamic_obstacle_detector:/root/ros_workspace/install/turtlebot3_gazebo:/root/ros_workspace/install/multi_robot_bringup:/root/ros_workspace/install/dynamic_obstacle_detector_interfaces:/opt/ros/jazzy PYTHONPATH=/root/ros_workspace/build/multi_robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/multi_robot_bringup/lib/python3.12/site-packages:/root/ros_workspace/install/dynamic_obstacle_detector/lib/python3.12/site-packages:/root/ros_workspace/install/multi_robot_bringup/lib/python3.12/site-packages:/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/multi_robot_bringup build --build-base /root/ros_workspace/build/multi_robot_bringup/build install --record /root/ros_workspace/build/multi_robot_bringup/install.log --single-version-externally-managed install_data

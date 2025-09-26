@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/dynamic_obstacle_detector/dynamic_obstacle_detector.egg-info
+writing ../../build/dynamic_obstacle_detector/dynamic_obstacle_detector.egg-info/PKG-INFO
+writing dependency_links to ../../build/dynamic_obstacle_detector/dynamic_obstacle_detector.egg-info/dependency_links.txt
+writing entry points to ../../build/dynamic_obstacle_detector/dynamic_obstacle_detector.egg-info/entry_points.txt
+writing requirements to ../../build/dynamic_obstacle_detector/dynamic_obstacle_detector.egg-info/requires.txt
+writing top-level names to ../../build/dynamic_obstacle_detector/dynamic_obstacle_detector.egg-info/top_level.txt
+writing manifest file '../../build/dynamic_obstacle_detector/dynamic_obstacle_detector.egg-info/SOURCES.txt'
+reading manifest file '../../build/dynamic_obstacle_detector/dynamic_obstacle_detector.egg-info/SOURCES.txt'
+writing manifest file '../../build/dynamic_obstacle_detector/dynamic_obstacle_detector.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ros_workspace/build/dynamic_obstacle_detector/build
+creating /root/ros_workspace/build/dynamic_obstacle_detector/build/lib
+creating /root/ros_workspace/build/dynamic_obstacle_detector/build/lib/dynamic_obstacle_detector
+copying dynamic_obstacle_detector/obstacle_detector_node.py -> /root/ros_workspace/build/dynamic_obstacle_detector/build/lib/dynamic_obstacle_detector
+copying dynamic_obstacle_detector/__init__.py -> /root/ros_workspace/build/dynamic_obstacle_detector/build/lib/dynamic_obstacle_detector
+running install
+running install_lib
+creating /root/ros_workspace/install/dynamic_obstacle_detector/lib/python3.12/site-packages/dynamic_obstacle_detector
+copying /root/ros_workspace/build/dynamic_obstacle_detector/build/lib/dynamic_obstacle_detector/obstacle_detector_node.py -> /root/ros_workspace/install/dynamic_obstacle_detector/lib/python3.12/site-packages/dynamic_obstacle_detector
+copying /root/ros_workspace/build/dynamic_obstacle_detector/build/lib/dynamic_obstacle_detector/__init__.py -> /root/ros_workspace/install/dynamic_obstacle_detector/lib/python3.12/site-packages/dynamic_obstacle_detector
+byte-compiling /root/ros_workspace/install/dynamic_obstacle_detector/lib/python3.12/site-packages/dynamic_obstacle_detector/obstacle_detector_node.py to obstacle_detector_node.cpython-312.pyc
+byte-compiling /root/ros_workspace/install/dynamic_obstacle_detector/lib/python3.12/site-packages/dynamic_obstacle_detector/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /root/ros_workspace/install/dynamic_obstacle_detector/share/ament_index
+creating /root/ros_workspace/install/dynamic_obstacle_detector/share/ament_index/resource_index
+creating /root/ros_workspace/install/dynamic_obstacle_detector/share/ament_index/resource_index/packages
+copying resource/dynamic_obstacle_detector -> /root/ros_workspace/install/dynamic_obstacle_detector/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros_workspace/install/dynamic_obstacle_detector/share/dynamic_obstacle_detector
+creating /root/ros_workspace/install/dynamic_obstacle_detector/share/dynamic_obstacle_detector/launch
+running install_egg_info
+Copying ../../build/dynamic_obstacle_detector/dynamic_obstacle_detector.egg-info to /root/ros_workspace/install/dynamic_obstacle_detector/lib/python3.12/site-packages/dynamic_obstacle_detector-0.0.1-py3.12.egg-info
+running install_scripts
+Installing obstacle_detector_node script to /root/ros_workspace/install/dynamic_obstacle_detector/lib/dynamic_obstacle_detector
+writing list of installed files to '/root/ros_workspace/build/dynamic_obstacle_detector/install.log'

@@ -1,0 +1,24 @@
+[1.543s] Invoking command in '/root/ros_workspace/src/dynamic_obstacle_detector': PYTHONPATH=/root/ros_workspace/build/dynamic_obstacle_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/dynamic_obstacle_detector/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dynamic_obstacle_detector build --build-base /root/ros_workspace/build/dynamic_obstacle_detector/build install --record /root/ros_workspace/build/dynamic_obstacle_detector/install.log --single-version-externally-managed install_data
+[2.050s] running egg_info
+[2.086s] writing ../../build/dynamic_obstacle_detector/dynamic_obstacle_detector.egg-info/PKG-INFO
+[2.087s] writing dependency_links to ../../build/dynamic_obstacle_detector/dynamic_obstacle_detector.egg-info/dependency_links.txt
+[2.087s] writing entry points to ../../build/dynamic_obstacle_detector/dynamic_obstacle_detector.egg-info/entry_points.txt
+[2.087s] writing requirements to ../../build/dynamic_obstacle_detector/dynamic_obstacle_detector.egg-info/requires.txt
+[2.088s] writing top-level names to ../../build/dynamic_obstacle_detector/dynamic_obstacle_detector.egg-info/top_level.txt
+[2.148s] reading manifest file '../../build/dynamic_obstacle_detector/dynamic_obstacle_detector.egg-info/SOURCES.txt'
+[2.149s] writing manifest file '../../build/dynamic_obstacle_detector/dynamic_obstacle_detector.egg-info/SOURCES.txt'
+[2.150s] running build
+[2.150s] running build_py
+[2.150s] copying dynamic_obstacle_detector/obstacle_detector_node.py -> /root/ros_workspace/build/dynamic_obstacle_detector/build/lib/dynamic_obstacle_detector
+[2.151s] running install
+[2.161s] running install_lib
+[2.190s] copying /root/ros_workspace/build/dynamic_obstacle_detector/build/lib/dynamic_obstacle_detector/obstacle_detector_node.py -> /root/ros_workspace/install/dynamic_obstacle_detector/lib/python3.12/site-packages/dynamic_obstacle_detector
+[2.191s] byte-compiling /root/ros_workspace/install/dynamic_obstacle_detector/lib/python3.12/site-packages/dynamic_obstacle_detector/obstacle_detector_node.py to obstacle_detector_node.cpython-312.pyc
+[2.200s] running install_data
+[2.200s] running install_egg_info
+[2.236s] removing '/root/ros_workspace/install/dynamic_obstacle_detector/lib/python3.12/site-packages/dynamic_obstacle_detector-0.0.1-py3.12.egg-info' (and everything under it)
+[2.237s] Copying ../../build/dynamic_obstacle_detector/dynamic_obstacle_detector.egg-info to /root/ros_workspace/install/dynamic_obstacle_detector/lib/python3.12/site-packages/dynamic_obstacle_detector-0.0.1-py3.12.egg-info
+[2.239s] running install_scripts
+[2.433s] Installing obstacle_detector_node script to /root/ros_workspace/install/dynamic_obstacle_detector/lib/dynamic_obstacle_detector
+[2.434s] writing list of installed files to '/root/ros_workspace/build/dynamic_obstacle_detector/install.log'
+[2.487s] Invoked command in '/root/ros_workspace/src/dynamic_obstacle_detector' returned '0': PYTHONPATH=/root/ros_workspace/build/dynamic_obstacle_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/dynamic_obstacle_detector/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dynamic_obstacle_detector build --build-base /root/ros_workspace/build/dynamic_obstacle_detector/build install --record /root/ros_workspace/build/dynamic_obstacle_detector/install.log --single-version-externally-managed install_data

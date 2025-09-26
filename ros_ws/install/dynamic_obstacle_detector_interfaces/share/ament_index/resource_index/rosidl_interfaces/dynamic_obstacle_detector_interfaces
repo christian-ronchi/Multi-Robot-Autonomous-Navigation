@@ -1,0 +1,4 @@
+msg/TrackedObject.idl
+msg/TrackedObject.msg
+msg/TrackedObjectArray.idl
+msg/TrackedObjectArray.msg

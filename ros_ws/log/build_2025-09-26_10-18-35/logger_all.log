@@ -1,0 +1,321 @@
+[0.299s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.299s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7b4f1c7c8590>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b4f1c7c82c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b4f1c7c82c0>>, mixin_verb=('build',))
+[0.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.418s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.419s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastdds.meta'
+[0.420s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.421s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.421s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/ros_workspace'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_obstacle_detector) by extensions ['ignore', 'ignore_ament_install']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_obstacle_detector) by extension 'ignore'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_obstacle_detector) by extension 'ignore_ament_install'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_obstacle_detector) by extensions ['colcon_pkg']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_obstacle_detector) by extension 'colcon_pkg'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_obstacle_detector) by extensions ['colcon_meta']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_obstacle_detector) by extension 'colcon_meta'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_obstacle_detector) by extensions ['ros']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_obstacle_detector) by extension 'ros'
+[0.508s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dynamic_obstacle_detector' with type 'ros.ament_python' and name 'dynamic_obstacle_detector'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_obstacle_detector_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_obstacle_detector_interfaces) by extension 'ignore'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_obstacle_detector_interfaces) by extension 'ignore_ament_install'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_obstacle_detector_interfaces) by extensions ['colcon_pkg']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_obstacle_detector_interfaces) by extension 'colcon_pkg'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_obstacle_detector_interfaces) by extensions ['colcon_meta']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_obstacle_detector_interfaces) by extension 'colcon_meta'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_obstacle_detector_interfaces) by extensions ['ros']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamic_obstacle_detector_interfaces) by extension 'ros'
+[0.511s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dynamic_obstacle_detector_interfaces' with type 'ros.ament_cmake' and name 'dynamic_obstacle_detector_interfaces'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_bringup) by extension 'ignore'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_bringup) by extension 'ignore_ament_install'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_bringup) by extensions ['colcon_pkg']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_bringup) by extension 'colcon_pkg'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_bringup) by extensions ['colcon_meta']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_bringup) by extension 'colcon_meta'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_bringup) by extensions ['ros']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_bringup) by extension 'ros'
+[0.514s] DEBUG:colcon.colcon_core.package_identification:Package 'src/multi_robot_bringup' with type 'ros.ament_python' and name 'multi_robot_bringup'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_gazebo) by extension 'ignore'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_gazebo) by extension 'ignore_ament_install'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_gazebo) by extensions ['colcon_pkg']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_gazebo) by extension 'colcon_pkg'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_gazebo) by extensions ['colcon_meta']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_gazebo) by extension 'colcon_meta'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_gazebo) by extensions ['ros']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_gazebo) by extension 'ros'
+[0.519s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_gazebo' with type 'ros.ament_cmake' and name 'turtlebot3_gazebo'
+[0.519s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.519s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.519s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.519s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.519s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'dynamic_obstacle_detector' build argument 'cmake_args' from command line to 'None'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'dynamic_obstacle_detector' build argument 'cmake_target' from command line to 'None'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'dynamic_obstacle_detector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'dynamic_obstacle_detector' build argument 'cmake_clean_cache' from command line to 'False'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'dynamic_obstacle_detector' build argument 'cmake_clean_first' from command line to 'False'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'dynamic_obstacle_detector' build argument 'cmake_force_configure' from command line to 'False'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'dynamic_obstacle_detector' build argument 'ament_cmake_args' from command line to 'None'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'dynamic_obstacle_detector' build argument 'catkin_cmake_args' from command line to 'None'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'dynamic_obstacle_detector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.566s] DEBUG:colcon.colcon_core.verb:Building package 'dynamic_obstacle_detector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros_workspace/build/dynamic_obstacle_detector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros_workspace/install/dynamic_obstacle_detector', 'merge_install': False, 'path': '/root/ros_workspace/src/dynamic_obstacle_detector', 'symlink_install': False, 'test_result_base': None}
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'dynamic_obstacle_detector_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'dynamic_obstacle_detector_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'dynamic_obstacle_detector_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'dynamic_obstacle_detector_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'dynamic_obstacle_detector_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'dynamic_obstacle_detector_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'dynamic_obstacle_detector_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'dynamic_obstacle_detector_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'dynamic_obstacle_detector_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.567s] DEBUG:colcon.colcon_core.verb:Building package 'dynamic_obstacle_detector_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros_workspace/build/dynamic_obstacle_detector_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces', 'merge_install': False, 'path': '/root/ros_workspace/src/dynamic_obstacle_detector_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.569s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros_workspace/build/turtlebot3_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros_workspace/install/turtlebot3_gazebo', 'merge_install': False, 'path': '/root/ros_workspace/src/turtlebot3_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.571s] DEBUG:colcon.colcon_core.verb:Building package 'multi_robot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros_workspace/build/multi_robot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros_workspace/install/multi_robot_bringup', 'merge_install': False, 'path': '/root/ros_workspace/src/multi_robot_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.571s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.573s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.574s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/ros_workspace/src/dynamic_obstacle_detector' with build type 'ament_python'
+[0.575s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamic_obstacle_detector', 'ament_prefix_path')
+[0.580s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/install/dynamic_obstacle_detector/share/dynamic_obstacle_detector/hook/ament_prefix_path.ps1'
+[0.582s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros_workspace/install/dynamic_obstacle_detector/share/dynamic_obstacle_detector/hook/ament_prefix_path.dsv'
+[0.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/install/dynamic_obstacle_detector/share/dynamic_obstacle_detector/hook/ament_prefix_path.sh'
+[0.584s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.585s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.598s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros_workspace/src/dynamic_obstacle_detector_interfaces' with build type 'ament_cmake'
+[0.598s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros_workspace/src/dynamic_obstacle_detector_interfaces'
+[0.600s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.601s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.613s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros_workspace/src/turtlebot3_gazebo' with build type 'ament_cmake'
+[0.615s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros_workspace/src/turtlebot3_gazebo'
+[0.616s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.617s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.163s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/ros_workspace/src/dynamic_obstacle_detector'
+[1.164s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.164s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.183s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros_workspace/build/dynamic_obstacle_detector_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_workspace/install/multi_robot_bringup:/root/ros_workspace/install/dynamic_obstacle_detector:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/build/dynamic_obstacle_detector_interfaces -- -j12 -l12
+[1.197s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros_workspace/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_workspace/install/multi_robot_bringup:/root/ros_workspace/install/dynamic_obstacle_detector:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/build/turtlebot3_gazebo -- -j12 -l12
+[1.543s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros_workspace/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_workspace/install/multi_robot_bringup:/root/ros_workspace/install/dynamic_obstacle_detector:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/build/turtlebot3_gazebo -- -j12 -l12
+[1.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros_workspace/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_workspace/install/multi_robot_bringup:/root/ros_workspace/install/dynamic_obstacle_detector:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_workspace/build/turtlebot3_gazebo
+[1.613s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[1.627s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/turtlebot3_gazebo' for CMake module files
+[1.635s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/turtlebot3_gazebo' for CMake config files
+[1.650s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros_workspace/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_workspace/install/multi_robot_bringup:/root/ros_workspace/install/dynamic_obstacle_detector:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_workspace/build/turtlebot3_gazebo
+[1.651s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'cmake_prefix_path')
+[1.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.ps1'
+[1.652s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros_workspace/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.dsv'
+[1.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.sh'
+[1.654s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/turtlebot3_gazebo/lib'
+[1.655s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/turtlebot3_gazebo/bin'
+[1.655s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc'
+[1.655s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/turtlebot3_gazebo/lib/python3.12/site-packages'
+[1.656s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/turtlebot3_gazebo/bin'
+[1.657s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_workspace/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.ps1'
+[1.658s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros_workspace/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv'
+[1.659s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_workspace/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh'
+[1.661s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_workspace/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.bash'
+[1.662s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_workspace/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.zsh'
+[1.663s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros_workspace/install/turtlebot3_gazebo/share/colcon-core/packages/turtlebot3_gazebo)
+[1.664s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[1.666s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/turtlebot3_gazebo' for CMake module files
+[1.667s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/turtlebot3_gazebo' for CMake config files
+[1.667s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'cmake_prefix_path')
+[1.668s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.ps1'
+[1.669s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros_workspace/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.dsv'
+[1.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.sh'
+[1.671s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/turtlebot3_gazebo/lib'
+[1.671s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/turtlebot3_gazebo/bin'
+[1.672s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc'
+[1.672s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/turtlebot3_gazebo/lib/python3.12/site-packages'
+[1.673s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/turtlebot3_gazebo/bin'
+[1.673s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_workspace/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.ps1'
+[1.674s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros_workspace/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv'
+[1.675s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_workspace/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh'
+[1.679s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_workspace/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.bash'
+[1.681s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_workspace/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.zsh'
+[1.683s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros_workspace/install/turtlebot3_gazebo/share/colcon-core/packages/turtlebot3_gazebo)
+[2.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros_workspace/src/dynamic_obstacle_detector': PYTHONPATH=/root/ros_workspace/build/dynamic_obstacle_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/dynamic_obstacle_detector/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dynamic_obstacle_detector build --build-base /root/ros_workspace/build/dynamic_obstacle_detector/build install --record /root/ros_workspace/build/dynamic_obstacle_detector/install.log --single-version-externally-managed install_data
+[3.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros_workspace/build/dynamic_obstacle_detector_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_workspace/install/multi_robot_bringup:/root/ros_workspace/install/dynamic_obstacle_detector:/opt/ros/jazzy /usr/bin/cmake --build /root/ros_workspace/build/dynamic_obstacle_detector_interfaces -- -j12 -l12
+[3.003s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros_workspace/build/dynamic_obstacle_detector_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_workspace/install/multi_robot_bringup:/root/ros_workspace/install/dynamic_obstacle_detector:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_workspace/build/dynamic_obstacle_detector_interfaces
+[3.202s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamic_obstacle_detector_interfaces)
+[3.203s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces' for CMake module files
+[3.204s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros_workspace/build/dynamic_obstacle_detector_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_workspace/install/multi_robot_bringup:/root/ros_workspace/install/dynamic_obstacle_detector:/opt/ros/jazzy /usr/bin/cmake --install /root/ros_workspace/build/dynamic_obstacle_detector_interfaces
+[3.205s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces' for CMake config files
+[3.207s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamic_obstacle_detector_interfaces', 'cmake_prefix_path')
+[3.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/share/dynamic_obstacle_detector_interfaces/hook/cmake_prefix_path.ps1'
+[3.208s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/share/dynamic_obstacle_detector_interfaces/hook/cmake_prefix_path.dsv'
+[3.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/share/dynamic_obstacle_detector_interfaces/hook/cmake_prefix_path.sh'
+[3.210s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/lib'
+[3.210s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamic_obstacle_detector_interfaces', 'ld_library_path_lib')
+[3.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/share/dynamic_obstacle_detector_interfaces/hook/ld_library_path_lib.ps1'
+[3.211s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/share/dynamic_obstacle_detector_interfaces/hook/ld_library_path_lib.dsv'
+[3.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/share/dynamic_obstacle_detector_interfaces/hook/ld_library_path_lib.sh'
+[3.213s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/bin'
+[3.213s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/lib/pkgconfig/dynamic_obstacle_detector_interfaces.pc'
+[3.213s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/lib/python3.12/site-packages'
+[3.214s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamic_obstacle_detector_interfaces', 'pythonpath')
+[3.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/share/dynamic_obstacle_detector_interfaces/hook/pythonpath.ps1'
+[3.215s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/share/dynamic_obstacle_detector_interfaces/hook/pythonpath.dsv'
+[3.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/share/dynamic_obstacle_detector_interfaces/hook/pythonpath.sh'
+[3.217s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/bin'
+[3.218s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/share/dynamic_obstacle_detector_interfaces/package.ps1'
+[3.219s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/share/dynamic_obstacle_detector_interfaces/package.dsv'
+[3.220s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/share/dynamic_obstacle_detector_interfaces/package.sh'
+[3.221s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/share/dynamic_obstacle_detector_interfaces/package.bash'
+[3.222s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/share/dynamic_obstacle_detector_interfaces/package.zsh'
+[3.222s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/share/colcon-core/packages/dynamic_obstacle_detector_interfaces)
+[3.224s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamic_obstacle_detector_interfaces)
+[3.224s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces' for CMake module files
+[3.226s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces' for CMake config files
+[3.227s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamic_obstacle_detector_interfaces', 'cmake_prefix_path')
+[3.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/share/dynamic_obstacle_detector_interfaces/hook/cmake_prefix_path.ps1'
+[3.229s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/share/dynamic_obstacle_detector_interfaces/hook/cmake_prefix_path.dsv'
+[3.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/share/dynamic_obstacle_detector_interfaces/hook/cmake_prefix_path.sh'
+[3.230s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/lib'
+[3.231s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamic_obstacle_detector_interfaces', 'ld_library_path_lib')
+[3.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/share/dynamic_obstacle_detector_interfaces/hook/ld_library_path_lib.ps1'
+[3.232s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/share/dynamic_obstacle_detector_interfaces/hook/ld_library_path_lib.dsv'
+[3.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/share/dynamic_obstacle_detector_interfaces/hook/ld_library_path_lib.sh'
+[3.233s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/bin'
+[3.234s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/lib/pkgconfig/dynamic_obstacle_detector_interfaces.pc'
+[3.234s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/lib/python3.12/site-packages'
+[3.234s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamic_obstacle_detector_interfaces', 'pythonpath')
+[3.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/share/dynamic_obstacle_detector_interfaces/hook/pythonpath.ps1'
+[3.236s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/share/dynamic_obstacle_detector_interfaces/hook/pythonpath.dsv'
+[3.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/share/dynamic_obstacle_detector_interfaces/hook/pythonpath.sh'
+[3.241s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/bin'
+[3.241s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/share/dynamic_obstacle_detector_interfaces/package.ps1'
+[3.243s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/share/dynamic_obstacle_detector_interfaces/package.dsv'
+[3.244s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/share/dynamic_obstacle_detector_interfaces/package.sh'
+[3.247s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/share/dynamic_obstacle_detector_interfaces/package.bash'
+[3.248s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/share/dynamic_obstacle_detector_interfaces/package.zsh'
+[3.250s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/share/colcon-core/packages/dynamic_obstacle_detector_interfaces)
+[3.723s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/dynamic_obstacle_detector' for CMake module files
+[3.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros_workspace/src/dynamic_obstacle_detector' returned '0': PYTHONPATH=/root/ros_workspace/build/dynamic_obstacle_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/dynamic_obstacle_detector/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dynamic_obstacle_detector build --build-base /root/ros_workspace/build/dynamic_obstacle_detector/build install --record /root/ros_workspace/build/dynamic_obstacle_detector/install.log --single-version-externally-managed install_data
+[3.725s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/dynamic_obstacle_detector' for CMake config files
+[3.726s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/dynamic_obstacle_detector/lib'
+[3.726s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/dynamic_obstacle_detector/bin'
+[3.726s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/dynamic_obstacle_detector/lib/pkgconfig/dynamic_obstacle_detector.pc'
+[3.726s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/dynamic_obstacle_detector/lib/python3.12/site-packages'
+[3.727s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamic_obstacle_detector', 'pythonpath')
+[3.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/install/dynamic_obstacle_detector/share/dynamic_obstacle_detector/hook/pythonpath.ps1'
+[3.728s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros_workspace/install/dynamic_obstacle_detector/share/dynamic_obstacle_detector/hook/pythonpath.dsv'
+[3.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/install/dynamic_obstacle_detector/share/dynamic_obstacle_detector/hook/pythonpath.sh'
+[3.729s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/dynamic_obstacle_detector/bin'
+[3.729s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamic_obstacle_detector)
+[3.729s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_workspace/install/dynamic_obstacle_detector/share/dynamic_obstacle_detector/package.ps1'
+[3.730s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros_workspace/install/dynamic_obstacle_detector/share/dynamic_obstacle_detector/package.dsv'
+[3.731s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_workspace/install/dynamic_obstacle_detector/share/dynamic_obstacle_detector/package.sh'
+[3.732s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_workspace/install/dynamic_obstacle_detector/share/dynamic_obstacle_detector/package.bash'
+[3.733s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_workspace/install/dynamic_obstacle_detector/share/dynamic_obstacle_detector/package.zsh'
+[3.733s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros_workspace/install/dynamic_obstacle_detector/share/colcon-core/packages/dynamic_obstacle_detector)
+[3.734s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/ros_workspace/src/multi_robot_bringup' with build type 'ament_python'
+[3.734s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_robot_bringup', 'ament_prefix_path')
+[3.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/install/multi_robot_bringup/share/multi_robot_bringup/hook/ament_prefix_path.ps1'
+[3.736s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros_workspace/install/multi_robot_bringup/share/multi_robot_bringup/hook/ament_prefix_path.dsv'
+[3.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/install/multi_robot_bringup/share/multi_robot_bringup/hook/ament_prefix_path.sh'
+[3.739s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.739s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.260s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/ros_workspace/src/multi_robot_bringup'
+[4.262s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.262s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros_workspace/src/multi_robot_bringup': AMENT_PREFIX_PATH=/root/ros_workspace/install/dynamic_obstacle_detector:/root/ros_workspace/install/turtlebot3_gazebo:/root/ros_workspace/install/multi_robot_bringup:/root/ros_workspace/install/dynamic_obstacle_detector_interfaces:/opt/ros/jazzy PYTHONPATH=/root/ros_workspace/build/multi_robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/multi_robot_bringup/lib/python3.12/site-packages:/root/ros_workspace/install/dynamic_obstacle_detector/lib/python3.12/site-packages:/root/ros_workspace/install/multi_robot_bringup/lib/python3.12/site-packages:/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/multi_robot_bringup build --build-base /root/ros_workspace/build/multi_robot_bringup/build install --record /root/ros_workspace/build/multi_robot_bringup/install.log --single-version-externally-managed install_data
+[6.672s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/multi_robot_bringup' for CMake module files
+[6.673s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros_workspace/src/multi_robot_bringup' returned '0': AMENT_PREFIX_PATH=/root/ros_workspace/install/dynamic_obstacle_detector:/root/ros_workspace/install/turtlebot3_gazebo:/root/ros_workspace/install/multi_robot_bringup:/root/ros_workspace/install/dynamic_obstacle_detector_interfaces:/opt/ros/jazzy PYTHONPATH=/root/ros_workspace/build/multi_robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/multi_robot_bringup/lib/python3.12/site-packages:/root/ros_workspace/install/dynamic_obstacle_detector/lib/python3.12/site-packages:/root/ros_workspace/install/multi_robot_bringup/lib/python3.12/site-packages:/root/ros_workspace/install/dynamic_obstacle_detector_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/multi_robot_bringup build --build-base /root/ros_workspace/build/multi_robot_bringup/build install --record /root/ros_workspace/build/multi_robot_bringup/install.log --single-version-externally-managed install_data
+[6.674s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/multi_robot_bringup' for CMake config files
+[6.674s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/multi_robot_bringup/lib'
+[6.675s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/multi_robot_bringup/bin'
+[6.675s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/multi_robot_bringup/lib/pkgconfig/multi_robot_bringup.pc'
+[6.675s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/multi_robot_bringup/lib/python3.12/site-packages'
+[6.675s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_robot_bringup', 'pythonpath')
+[6.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/install/multi_robot_bringup/share/multi_robot_bringup/hook/pythonpath.ps1'
+[6.676s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros_workspace/install/multi_robot_bringup/share/multi_robot_bringup/hook/pythonpath.dsv'
+[6.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros_workspace/install/multi_robot_bringup/share/multi_robot_bringup/hook/pythonpath.sh'
+[6.678s] Level 1:colcon.colcon_core.environment:checking '/root/ros_workspace/install/multi_robot_bringup/bin'
+[6.678s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multi_robot_bringup)
+[6.678s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_workspace/install/multi_robot_bringup/share/multi_robot_bringup/package.ps1'
+[6.679s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros_workspace/install/multi_robot_bringup/share/multi_robot_bringup/package.dsv'
+[6.680s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_workspace/install/multi_robot_bringup/share/multi_robot_bringup/package.sh'
+[6.680s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_workspace/install/multi_robot_bringup/share/multi_robot_bringup/package.bash'
+[6.681s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros_workspace/install/multi_robot_bringup/share/multi_robot_bringup/package.zsh'
+[6.682s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros_workspace/install/multi_robot_bringup/share/colcon-core/packages/multi_robot_bringup)
+[6.682s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.683s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.684s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.684s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.695s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[6.695s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.696s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.696s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.701s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[6.701s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.702s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros_workspace/install/local_setup.ps1'
+[6.704s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros_workspace/install/_local_setup_util_ps1.py'
+[6.706s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros_workspace/install/setup.ps1'
+[6.709s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros_workspace/install/local_setup.sh'
+[6.709s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros_workspace/install/_local_setup_util_sh.py'
+[6.710s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros_workspace/install/setup.sh'
+[6.712s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros_workspace/install/local_setup.bash'
+[6.713s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros_workspace/install/setup.bash'
+[6.715s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros_workspace/install/local_setup.zsh'
+[6.716s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros_workspace/install/setup.zsh'

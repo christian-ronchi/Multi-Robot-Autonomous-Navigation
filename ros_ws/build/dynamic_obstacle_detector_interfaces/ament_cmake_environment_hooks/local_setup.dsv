@@ -1,0 +1,4 @@
+source;share/dynamic_obstacle_detector_interfaces/environment/ament_prefix_path.sh
+source;share/dynamic_obstacle_detector_interfaces/environment/library_path.sh
+source;share/dynamic_obstacle_detector_interfaces/environment/path.sh
+source;share/dynamic_obstacle_detector_interfaces/environment/pythonpath.sh

@@ -1,0 +1,65 @@
+// generated from rosidl_typesupport_fastrtps_c/resource/idl__rosidl_typesupport_fastrtps_c.h.em
+// with input from dynamic_obstacle_detector_interfaces:msg/TrackedObjectArray.idl
+// generated code does not contain a copyright notice
+#ifndef DYNAMIC_OBSTACLE_DETECTOR_INTERFACES__MSG__DETAIL__TRACKED_OBJECT_ARRAY__ROSIDL_TYPESUPPORT_FASTRTPS_C_H_
+#define DYNAMIC_OBSTACLE_DETECTOR_INTERFACES__MSG__DETAIL__TRACKED_OBJECT_ARRAY__ROSIDL_TYPESUPPORT_FASTRTPS_C_H_
+
+
+#include <stddef.h>
+#include "rosidl_runtime_c/message_type_support_struct.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "dynamic_obstacle_detector_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h"
+#include "dynamic_obstacle_detector_interfaces/msg/detail/tracked_object_array__struct.h"
+#include "fastcdr/Cdr.h"
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_dynamic_obstacle_detector_interfaces
+bool cdr_serialize_dynamic_obstacle_detector_interfaces__msg__TrackedObjectArray(
+  const dynamic_obstacle_detector_interfaces__msg__TrackedObjectArray * ros_message,
+  eprosima::fastcdr::Cdr & cdr);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_dynamic_obstacle_detector_interfaces
+bool cdr_deserialize_dynamic_obstacle_detector_interfaces__msg__TrackedObjectArray(
+  eprosima::fastcdr::Cdr &,
+  dynamic_obstacle_detector_interfaces__msg__TrackedObjectArray * ros_message);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_dynamic_obstacle_detector_interfaces
+size_t get_serialized_size_dynamic_obstacle_detector_interfaces__msg__TrackedObjectArray(
+  const void * untyped_ros_message,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_dynamic_obstacle_detector_interfaces
+size_t max_serialized_size_dynamic_obstacle_detector_interfaces__msg__TrackedObjectArray(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_dynamic_obstacle_detector_interfaces
+bool cdr_serialize_key_dynamic_obstacle_detector_interfaces__msg__TrackedObjectArray(
+  const dynamic_obstacle_detector_interfaces__msg__TrackedObjectArray * ros_message,
+  eprosima::fastcdr::Cdr & cdr);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_dynamic_obstacle_detector_interfaces
+size_t get_serialized_size_key_dynamic_obstacle_detector_interfaces__msg__TrackedObjectArray(
+  const void * untyped_ros_message,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_dynamic_obstacle_detector_interfaces
+size_t max_serialized_size_key_dynamic_obstacle_detector_interfaces__msg__TrackedObjectArray(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_dynamic_obstacle_detector_interfaces
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, dynamic_obstacle_detector_interfaces, msg, TrackedObjectArray)();
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // DYNAMIC_OBSTACLE_DETECTOR_INTERFACES__MSG__DETAIL__TRACKED_OBJECT_ARRAY__ROSIDL_TYPESUPPORT_FASTRTPS_C_H_

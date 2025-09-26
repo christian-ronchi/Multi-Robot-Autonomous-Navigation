@@ -1,0 +1,13 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/dynamic_obstacle_detector_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamic_obstacle_detector_interfaces/msg/_tracked_object_array_s.c.o"
+  "CMakeFiles/dynamic_obstacle_detector_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamic_obstacle_detector_interfaces/msg/_tracked_object_array_s.c.o.d"
+  "CMakeFiles/dynamic_obstacle_detector_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamic_obstacle_detector_interfaces/msg/_tracked_object_s.c.o"
+  "CMakeFiles/dynamic_obstacle_detector_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamic_obstacle_detector_interfaces/msg/_tracked_object_s.c.o.d"
+  "libdynamic_obstacle_detector_interfaces__rosidl_generator_py.pdb"
+  "libdynamic_obstacle_detector_interfaces__rosidl_generator_py.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/dynamic_obstacle_detector_interfaces__rosidl_generator_py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

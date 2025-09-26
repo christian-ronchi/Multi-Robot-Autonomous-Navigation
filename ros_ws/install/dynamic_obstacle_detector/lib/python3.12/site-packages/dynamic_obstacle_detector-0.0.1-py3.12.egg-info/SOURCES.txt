@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/dynamic_obstacle_detector/dynamic_obstacle_detector.egg-info/PKG-INFO
+../../build/dynamic_obstacle_detector/dynamic_obstacle_detector.egg-info/SOURCES.txt
+../../build/dynamic_obstacle_detector/dynamic_obstacle_detector.egg-info/dependency_links.txt
+../../build/dynamic_obstacle_detector/dynamic_obstacle_detector.egg-info/entry_points.txt
+../../build/dynamic_obstacle_detector/dynamic_obstacle_detector.egg-info/requires.txt
+../../build/dynamic_obstacle_detector/dynamic_obstacle_detector.egg-info/top_level.txt
+../../build/dynamic_obstacle_detector/dynamic_obstacle_detector.egg-info/zip-safe
+dynamic_obstacle_detector/__init__.py
+dynamic_obstacle_detector/obstacle_detector_node.py
+resource/dynamic_obstacle_detector
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

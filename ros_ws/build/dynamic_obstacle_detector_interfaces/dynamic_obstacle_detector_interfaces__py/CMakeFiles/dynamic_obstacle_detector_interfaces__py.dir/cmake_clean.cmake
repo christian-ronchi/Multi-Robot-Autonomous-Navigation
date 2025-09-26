@@ -1,0 +1,16 @@
+file(REMOVE_RECURSE
+  "/root/ros_workspace/build/dynamic_obstacle_detector_interfaces/rosidl_generator_py/dynamic_obstacle_detector_interfaces/_dynamic_obstacle_detector_interfaces_s.ep.rosidl_typesupport_c.c"
+  "/root/ros_workspace/build/dynamic_obstacle_detector_interfaces/rosidl_generator_py/dynamic_obstacle_detector_interfaces/_dynamic_obstacle_detector_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/root/ros_workspace/build/dynamic_obstacle_detector_interfaces/rosidl_generator_py/dynamic_obstacle_detector_interfaces/_dynamic_obstacle_detector_interfaces_s.ep.rosidl_typesupport_introspection_c.c"
+  "/root/ros_workspace/build/dynamic_obstacle_detector_interfaces/rosidl_generator_py/dynamic_obstacle_detector_interfaces/msg/__init__.py"
+  "/root/ros_workspace/build/dynamic_obstacle_detector_interfaces/rosidl_generator_py/dynamic_obstacle_detector_interfaces/msg/_tracked_object.py"
+  "/root/ros_workspace/build/dynamic_obstacle_detector_interfaces/rosidl_generator_py/dynamic_obstacle_detector_interfaces/msg/_tracked_object_array.py"
+  "/root/ros_workspace/build/dynamic_obstacle_detector_interfaces/rosidl_generator_py/dynamic_obstacle_detector_interfaces/msg/_tracked_object_array_s.c"
+  "/root/ros_workspace/build/dynamic_obstacle_detector_interfaces/rosidl_generator_py/dynamic_obstacle_detector_interfaces/msg/_tracked_object_s.c"
+  "CMakeFiles/dynamic_obstacle_detector_interfaces__py"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/dynamic_obstacle_detector_interfaces__py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

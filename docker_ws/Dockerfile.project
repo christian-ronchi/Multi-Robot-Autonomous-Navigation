@@ -9,6 +9,9 @@ RUN apt update -y && apt install -y ros-jazzy-rqt-console
 # Install python3-scikit-learn for DBSCAN
 RUN apt update -y && apt install -y python3-sklearn
 
+# Install TF2 for coordinate transformations
+RUN apt update -y && apt install -y ros-jazzy-tf-transformations
+
 # Install ROS-Gazebo interface for simulation integration
 RUN apt update -y && apt install -y ros-jazzy-ros-gz
 

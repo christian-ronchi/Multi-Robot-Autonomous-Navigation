@@ -7,7 +7,7 @@ package_name = 'multi_robot_bringup'
 setup(
     name=package_name,
     version='0.0.0',
-    packages=find_packages(where='.', include=['multi_robot_scripts', 'multi_robot_scripts.*'], exclude=['test']),
+    packages=find_packages(exclude=['test']),
     data_files=[
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
@@ -20,11 +20,15 @@ setup(
         (os.path.join('share', package_name, 'map'), glob(os.path.join('map', '*.pgm'))),
         (os.path.join('share', package_name, 'launch', 'nav2_custom'), glob(os.path.join('launch', 'nav2_custom', '*launch.py'))),
     ],
-    install_requires=['setuptools', 'scikit-learn'],
+    install_requires=['setuptools'],
     zip_safe=True,
     maintainer='root',
     maintainer_email='root@todo.todo',
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
+    entry_points={
+        'console_scripts': [
+        ],
+    },
 )

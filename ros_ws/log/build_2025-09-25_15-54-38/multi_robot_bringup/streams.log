@@ -1,0 +1,55 @@
+[0.774s] Invoking command in '/root/ros_workspace/src/multi_robot_bringup': AMENT_PREFIX_PATH=/root/ros_workspace/install/dynamic_obstacle_detector:${AMENT_PREFIX_PATH} PYTHONPATH=/root/ros_workspace/build/multi_robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/multi_robot_bringup/lib/python3.12/site-packages:/root/ros_workspace/install/dynamic_obstacle_detector/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/multi_robot_bringup build --build-base /root/ros_workspace/build/multi_robot_bringup/build install --record /root/ros_workspace/build/multi_robot_bringup/install.log --single-version-externally-managed install_data
+[1.036s] running egg_info
+[1.037s] creating ../../build/multi_robot_bringup/multi_robot_bringup.egg-info
+[1.056s] writing ../../build/multi_robot_bringup/multi_robot_bringup.egg-info/PKG-INFO
+[1.056s] writing dependency_links to ../../build/multi_robot_bringup/multi_robot_bringup.egg-info/dependency_links.txt
+[1.057s] writing requirements to ../../build/multi_robot_bringup/multi_robot_bringup.egg-info/requires.txt
+[1.057s] writing top-level names to ../../build/multi_robot_bringup/multi_robot_bringup.egg-info/top_level.txt
+[1.057s] writing manifest file '../../build/multi_robot_bringup/multi_robot_bringup.egg-info/SOURCES.txt'
+[1.093s] reading manifest file '../../build/multi_robot_bringup/multi_robot_bringup.egg-info/SOURCES.txt'
+[1.094s] writing manifest file '../../build/multi_robot_bringup/multi_robot_bringup.egg-info/SOURCES.txt'
+[1.094s] running build
+[1.094s] running build_py
+[1.094s] creating /root/ros_workspace/build/multi_robot_bringup/build
+[1.095s] creating /root/ros_workspace/build/multi_robot_bringup/build/lib
+[1.095s] creating /root/ros_workspace/build/multi_robot_bringup/build/lib/multi_robot_scripts
+[1.095s] copying multi_robot_scripts/utils.py -> /root/ros_workspace/build/multi_robot_bringup/build/lib/multi_robot_scripts
+[1.095s] copying multi_robot_scripts/__init__.py -> /root/ros_workspace/build/multi_robot_bringup/build/lib/multi_robot_scripts
+[1.096s] creating /root/ros_workspace/build/multi_robot_bringup/build/lib/multi_robot_bringup
+[1.096s] copying multi_robot_bringup/__init__.py -> /root/ros_workspace/build/multi_robot_bringup/build/lib/multi_robot_bringup
+[1.096s] running install
+[1.103s] running install_lib
+[1.121s] creating /root/ros_workspace/install/multi_robot_bringup/lib/python3.12/site-packages/multi_robot_scripts
+[1.121s] copying /root/ros_workspace/build/multi_robot_bringup/build/lib/multi_robot_scripts/utils.py -> /root/ros_workspace/install/multi_robot_bringup/lib/python3.12/site-packages/multi_robot_scripts
+[1.121s] copying /root/ros_workspace/build/multi_robot_bringup/build/lib/multi_robot_scripts/__init__.py -> /root/ros_workspace/install/multi_robot_bringup/lib/python3.12/site-packages/multi_robot_scripts
+[1.122s] creating /root/ros_workspace/install/multi_robot_bringup/lib/python3.12/site-packages/multi_robot_bringup
+[1.122s] copying /root/ros_workspace/build/multi_robot_bringup/build/lib/multi_robot_bringup/__init__.py -> /root/ros_workspace/install/multi_robot_bringup/lib/python3.12/site-packages/multi_robot_bringup
+[1.122s] byte-compiling /root/ros_workspace/install/multi_robot_bringup/lib/python3.12/site-packages/multi_robot_scripts/utils.py to utils.cpython-312.pyc
+[1.124s] byte-compiling /root/ros_workspace/install/multi_robot_bringup/lib/python3.12/site-packages/multi_robot_scripts/__init__.py to __init__.cpython-312.pyc
+[1.124s] byte-compiling /root/ros_workspace/install/multi_robot_bringup/lib/python3.12/site-packages/multi_robot_bringup/__init__.py to __init__.cpython-312.pyc
+[1.124s] running install_data
+[1.125s] creating /root/ros_workspace/install/multi_robot_bringup/share/ament_index
+[1.125s] creating /root/ros_workspace/install/multi_robot_bringup/share/ament_index/resource_index
+[1.125s] creating /root/ros_workspace/install/multi_robot_bringup/share/ament_index/resource_index/packages
+[1.125s] copying resource/multi_robot_bringup -> /root/ros_workspace/install/multi_robot_bringup/share/ament_index/resource_index/packages
+[1.126s] copying package.xml -> /root/ros_workspace/install/multi_robot_bringup/share/multi_robot_bringup
+[1.126s] creating /root/ros_workspace/install/multi_robot_bringup/share/multi_robot_bringup/launch
+[1.126s] copying launch/tb3_nav2.launch.py -> /root/ros_workspace/install/multi_robot_bringup/share/multi_robot_bringup/launch
+[1.126s] copying launch/tb3_world.launch.py -> /root/ros_workspace/install/multi_robot_bringup/share/multi_robot_bringup/launch
+[1.127s] creating /root/ros_workspace/install/multi_robot_bringup/share/multi_robot_bringup/params
+[1.127s] copying params/burger_nav2_params.yaml -> /root/ros_workspace/install/multi_robot_bringup/share/multi_robot_bringup/params
+[1.127s] creating /root/ros_workspace/install/multi_robot_bringup/share/multi_robot_bringup/rviz
+[1.127s] copying rviz/tb3_navigation2.rviz -> /root/ros_workspace/install/multi_robot_bringup/share/multi_robot_bringup/rviz
+[1.127s] creating /root/ros_workspace/install/multi_robot_bringup/share/multi_robot_bringup/config
+[1.128s] copying config/robots.yaml -> /root/ros_workspace/install/multi_robot_bringup/share/multi_robot_bringup/config
+[1.128s] creating /root/ros_workspace/install/multi_robot_bringup/share/multi_robot_bringup/map
+[1.128s] copying map/map.yaml -> /root/ros_workspace/install/multi_robot_bringup/share/multi_robot_bringup/map
+[1.128s] copying map/map2.yaml -> /root/ros_workspace/install/multi_robot_bringup/share/multi_robot_bringup/map
+[1.129s] copying map/map.pgm -> /root/ros_workspace/install/multi_robot_bringup/share/multi_robot_bringup/map
+[1.130s] copying map/map2.pgm -> /root/ros_workspace/install/multi_robot_bringup/share/multi_robot_bringup/map
+[1.130s] creating /root/ros_workspace/install/multi_robot_bringup/share/multi_robot_bringup/launch/nav2_custom
+[1.131s] running install_egg_info
+[1.150s] Copying ../../build/multi_robot_bringup/multi_robot_bringup.egg-info to /root/ros_workspace/install/multi_robot_bringup/lib/python3.12/site-packages/multi_robot_bringup-0.0.0-py3.12.egg-info
+[1.151s] running install_scripts
+[1.284s] writing list of installed files to '/root/ros_workspace/build/multi_robot_bringup/install.log'
+[1.324s] Invoked command in '/root/ros_workspace/src/multi_robot_bringup' returned '0': AMENT_PREFIX_PATH=/root/ros_workspace/install/dynamic_obstacle_detector:${AMENT_PREFIX_PATH} PYTHONPATH=/root/ros_workspace/build/multi_robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_workspace/install/multi_robot_bringup/lib/python3.12/site-packages:/root/ros_workspace/install/dynamic_obstacle_detector/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/multi_robot_bringup build --build-base /root/ros_workspace/build/multi_robot_bringup/build install --record /root/ros_workspace/build/multi_robot_bringup/install.log --single-version-externally-managed install_data

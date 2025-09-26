@@ -1,0 +1,13 @@
+{
+  "package_name": "dynamic_obstacle_detector_interfaces",
+  "output_dir": "/root/ros_workspace/build/dynamic_obstacle_detector_interfaces/rosidl_generator_type_description/dynamic_obstacle_detector_interfaces",
+  "idl_tuples": [
+    "/root/ros_workspace/build/dynamic_obstacle_detector_interfaces/rosidl_adapter/dynamic_obstacle_detector_interfaces:msg/TrackedObject.idl",
+    "/root/ros_workspace/build/dynamic_obstacle_detector_interfaces/rosidl_adapter/dynamic_obstacle_detector_interfaces:msg/TrackedObjectArray.idl"
+  ],
+  "include_paths": [
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}
