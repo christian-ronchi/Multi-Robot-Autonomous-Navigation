@@ -1,5 +1,0 @@
-  File "/root/ros_workspace/install/dynamic_obstacle_detector/lib/python3.12/site-packages/dynamic_obstacle_detector/obstacle_detector_node.py", line 241
-    if not (isinstance(kf_p, (list, tuple)) and len(kf_p) == 4:
-                                                              ^
-SyntaxError: invalid syntax
-

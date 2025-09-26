@@ -1,7 +1,0 @@
-Metadata-Version: 2.1
-Name: dynamic-obstacle-detector
-Version: 0.0.1
-Summary: Detects, tracks, and predicts dynamic obstacles from LiDAR data.
-Maintainer: user
-Maintainer-email: user@todo.todo
-License: Apache-2.0

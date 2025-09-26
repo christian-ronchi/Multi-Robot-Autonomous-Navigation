@@ -1,2 +1,0 @@
-[console_scripts]
-obstacle_detector_node = dynamic_obstacle_detector.obstacle_detector_node:main

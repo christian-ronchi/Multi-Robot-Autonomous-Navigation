@@ -1,7 +1,0 @@
-{
-  "package_name": "dynamic_obstacle_detector_interfaces",
-  "non_idl_tuples": [
-    "/root/ros_workspace/src/dynamic_obstacle_detector_interfaces:msg/TrackedObject.msg",
-    "/root/ros_workspace/src/dynamic_obstacle_detector_interfaces:msg/TrackedObjectArray.msg"
-  ]
-}
