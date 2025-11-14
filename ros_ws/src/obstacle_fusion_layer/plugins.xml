@@ -1,0 +1,5 @@
+<library path="libobstacle_fusion_layer">
+  <class type="obstacle_fusion_layer::ObstacleFusionLayer" base_class_type="nav2_costmap_2d::Layer">
+    <description>Disegna ostacoli dinamici fusi nella global costmap</description>
+  </class>
+</library>

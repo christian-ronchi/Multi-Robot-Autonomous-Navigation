@@ -1,0 +1,30 @@
+# Base image:ROS2 Jazzy
+FROM ros:jazzy
+
+# Install basic tools and utilities
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    # Basic tools
+    wget \
+    # Python dependencies
+    python3-numpy \
+    python3-sklearn \
+    # ROS tools and libraries
+    ros-jazzy-rqt-graph \
+    ros-jazzy-rqt-console \
+    ros-jazzy-tf-transformations \
+    ros-jazzy-ros-gz \
+    ros-jazzy-navigation2 \
+    ros-jazzy-nav2-bringup \
+    ros-jazzy-slam-toolbox \
+    ros-jazzy-laser-filters \
+    ros-jazzy-nav2-costmap-2d \
+    ros-jazzy-pluginlib \
+    # Clean up apt lists to reduce image size
+    && rm -rf /var/lib/apt/lists/*
+
+# Create workspace
+WORKDIR /root/ros_workspace
+
+# Compile the workspace to make the new package available.
+# It is necessary to source the ROS environment before compiling.
+RUN . /opt/ros/jazzy/setup.sh && colcon build --symlink-install

@@ -1,0 +1,9 @@
+free_thresh: 0.25
+image: map_custom_world.pgm
+negate: 0
+occupied_thresh: 0.65
+origin:
+- -2.5327408523220725
+- -2.544142209948993
+- 0.0
+resolution: 0.05

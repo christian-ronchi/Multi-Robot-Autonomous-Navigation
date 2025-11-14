@@ -1,0 +1,9 @@
+free_thresh: 0.25
+image: rooms_and_corridor.pgm
+negate: 0
+occupied_thresh: 0.65
+origin:
+- -1.9869394842561525
+- -4.087621244289368
+- 0.0
+resolution: 0.05

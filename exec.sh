@@ -1,0 +1,1 @@
+docker exec -it multi_robot bash
