@@ -284,7 +284,7 @@ A demonstration video showcasing a complete walkthrough of the simulation proces
 ## 📘 Documentation
 For an in-depth look, please refer to the full project documentation, which includes detailed architecture, algorithm explanations, and evaluation results.
 
-👉 [Download PDF Documentation](https://drive.google.com/file/d/1rqgA5lZjTg61H-IfdenyXS_pR2PdhZvE/view?usp=sharing)
+👉 [Download PDF Documentation]([https://drive.google.com/file/d/1rqgA5lZjTg61H-IfdenyXS_pR2PdhZvE/view?usp=sharing](https://drive.google.com/file/d/1wRIw1oQD4XBu21KaEJPeogZWe3JLWja7/view?usp=sharing))
 
 ## 🧠 Credits
 This project was developed as part of the Mobile Robotics course at the Politecnico di Bari.
