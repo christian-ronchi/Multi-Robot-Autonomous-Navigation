@@ -18,7 +18,6 @@ The system is divided into two main sections:
 ├── chown_me.sh # Script to fix file ownership inside the container
 ├── run.sh      # Script to start the Docker container
 ├── exec.sh     # Script to open a shell into the running container
-├── Report.pdf  # Project documentation 
 └── README.md   # This file
 ```
 
